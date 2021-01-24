@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'PoiretOne';
+    src: url('PoiretOne-Regular.ttf');
+}
+
+body {
+    background-image: url("BG.png");
+}
+
+body, html {
+    height: 100%;
+  }
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 70%;
+}
+
+.logo img {
+    height: 70%;
+    margin: 0 10px 0 10px;
+}
+
+.logo div {
+    display: flex;
+    font-family: PoiretOne;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu, .contacts, .icon {
+    display: flex;
+}
+.menu {
+    justify-content: space-evenly;
+    width: 80%;
+}
+.icon img {
+    height: 30px;
+}
